@@ -1,0 +1,134 @@
+/**
+* This stylesheet contains custom styles for project GPG
+* Author: Faizan Chughtai
+*/
+
+.error{
+	color:#a94442;
+}
+
+.panel-table{
+	
+}
+
+.panel-heading {
+    background: none repeat scroll 0 0 #7c8999;
+    color: #ffffff;
+}
+
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: #41cac0;
+    border-color: #41cac0;
+    color: #ffffff;
+}
+
+.btn-info {
+    background-color: #58c9f3;
+    border-color: #58c9f3;
+    color: #ffffff;
+}
+
+.bord-bottom {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+table.display thead th {
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 3px 18px 3px 10px;
+	font-size:13px;
+}
+
+table.display tbody td{
+	font-size:13px;
+	text-align:center;
+}
+
+.state-overview .panel .value h1{
+	font-size:28px;
+}
+
+.panel label{
+	font-weight:normal;
+}
+
+#loading-img{
+	display:none;
+	background:url('../img/loader.gif') no-repeat;
+	width:16px;
+	height:16px;
+	margin:10px 0 0 10px;
+	float:left;
+}
+
+.panel header a{color:#fff;}
+
+.control-label {
+    white-space: nowrap; 
+    font-weight: bold;
+}
+
+/* Listing page scroll css */
+#flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+#flip-scroll * html .cf { zoom: 1; }
+#flip-scroll *:first-child+html .cf { zoom: 1; }
+#flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+
+#flip-scroll th,
+#flip-scroll td { margin: 0; vertical-align: top; }
+#flip-scroll td { padding-bottom: 8.2px; }
+#flip-scroll th { text-align: center; }
+#flip-scroll table { display: block; position: relative; width: 100%; }
+#flip-scroll thead { display: block; float: left; }
+#flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+#flip-scroll thead tr { display: block; }
+#flip-scroll th { display: block; text-align: right; }
+#flip-scroll tbody tr { display: inline-block; vertical-align: top; }
+#flip-scroll td { display: block; min-height: 2.95em; text-align: left; }
+/* sort out borders */
+#flip-scroll th { border-bottom: 0; border-left: 0; }
+#flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0; }
+#flip-scroll tbody tr { border-left: 1px solid #babcbf; }
+#flip-scroll th:last-child,
+#flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
+
+/* Contract Listing Page START */
+
+#togglerButton {
+    margin:10px; 
+    color:red; 
+    cursor:pointer;    
+}
+
+#viewJobsModal .modal-dialog {
+    width: 750px;
+}
+
+@media (max-width: 800px){
+  #viewJobsModal .modal-dialog{
+      width: 100%;
+    }
+}
+/* Contract Listing Page END */
+
